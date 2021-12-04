@@ -10,7 +10,7 @@ public class PointDemo {
         point3.initialize();
 
         Point point4 = new Point(point3);
-        Point point5 = point2.createNewTranslatedPoint(1, 2);
+        Point point5 = point2.createNewTranslatePoint(1, 2);
         Point point6 = point2;
 
         System.out.println("Point 1: " + point1);
